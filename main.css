@@ -1,23 +1,83 @@
 /*
-Errno::ENOENT: No such file or directory - _home.scss
+Error: Invalid CSS after "}": expected "}", was ""
+        on line 101 of stylesheets/views/_home.scss
+        from line 3 of stylesheets/views/_views.scss
+        from line 17 of stylesheets/main.scss
+
+96:   height: 96%;
+97:   border-radius: 50%;
+98:   top: 2%;
+99:   width: 100%;
+100: }
 
 Backtrace:
-c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:482:in `read'
-c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:482:in `update_stylesheet'
+stylesheets/views/_home.scss:101
+stylesheets/views/_views.scss:3
+stylesheets/main.scss:17
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1165:in `expected'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1101:in `expected'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1096:in `tok!'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:643:in `block'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:635:in `ruleset'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/engine.rb:299:in `to_tree'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:88:in `block in with_import'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:88:in `with_import'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `map'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:88:in `block in with_import'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:88:in `with_import'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `map'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/engine.rb:285:in `render_with_sourcemap'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
 c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
 c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
 c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:293:in `watch'
-c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin.rb:108:in `method_missing'
-c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:381:in `watch_or_update'
-c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:51:in `process_result'
-c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/exec/base.rb:52:in `parse'
-c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/exec/base.rb:19:in `parse!'
-c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/bin/sass:13:in `<top (required)>'
-c:/Ruby200/bin/sass:23:in `load'
-c:/Ruby200/bin/sass:23:in `<main>'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:328:in `block in watch'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `call'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+c:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory - _home.scss"; }
+  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 101 of stylesheets/views/_home.scss\A         from line 3 of stylesheets/views/_views.scss\A         from line 17 of stylesheets/main.scss\A \A 96:   height: 96%;\A 97:   border-radius: 50%;\A 98:   top: 2%;\A 99:   width: 100%;\A 100: }"; }
