@@ -5521,6 +5521,12 @@ button.close {
 /*========================================
 =             APP CUSTOM                 =
 ========================================*/
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
 .navbar {
   background: transparent;
   border-color: transparent; }
@@ -5568,11 +5574,11 @@ h3, h4 {
 .flecha {
   position: relative;
   z-index: 100;
-  bottom: -35px;
+  bottom: 23px;
   text-align: center; }
 
 .flecha-home img {
-  position: relative; }
+  position: absolute; }
 
 h1 {
   color: #58C6E7;
@@ -5591,14 +5597,18 @@ span {
   position: relative;
   bottom: -58px; }
 
+.line-container {
+  height: 150px; }
+
 .line1 {
   width: 150px;
   height: 47px;
   border-bottom: 2px dashed #FF6A49;
+  position: absolute;
   /* -webkit-transform: translateY(10px) translateX(2px) rotate(-18deg);*/
-  top: 158px;
-  left: 74px;
-  -webkit-transform: translateY(115px) translateX(56px) rotate(-22deg); }
+  top: -21px;
+  left: 0px;
+  -webkit-transform: translateY(115px) translateX(56px) rotate(-18deg); }
 
 .circulo-externo {
   background-color: #ff6a49;
@@ -5637,11 +5647,6 @@ span {
   height: 77px;
   width: 150px; }
 
-.text-metodologia {
-  top: -220px;
-  text-align: center;
-  padding-left: 7%; }
-
 .text-mean {
   color: #FF6A49;
   letter-spacing: -1px; }
@@ -5659,6 +5664,27 @@ span {
   padding: 7px 40px !important;
   background: #58C6E7;
   border-radius: 17px;
-  border: 1px solid #9f9f9f; }
+  border: 1px solid #9f9f9f;
+  margin-bottom: 10%; }
+
+@media screen and (max-width: 480px) {
+  .navbar-toggle {
+    float: left; } }
+/*.text-metodologia {
+  display: block;
+  position: relative;
+}
+.text-medio {
+  display: block;
+  position: relative;
+}*/
+.flecha-2 {
+  position: relative;
+  z-index: 100;
+  bottom: 23px;
+  text-align: center; }
+
+.flecha-center img {
+  position: absolute; }
 
 /*# sourceMappingURL=main.css.map */
