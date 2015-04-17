@@ -5838,7 +5838,6 @@ h2 {
 /*oportunidades*/
 .oportunidades {
   background-image: url(../img/img-03.png);
-  height: 180%;
   width: 100%;
   background-size: cover; }
 
@@ -5852,8 +5851,7 @@ h2 {
 
 .lista {
   border-bottom: 1px dashed rgba(128, 128, 128, 0.21);
-  width: 57%;
-  margin: 0 auto;
+  margin: 0 24%;
   padding: 3% 0%; }
 
 .servicio {
@@ -5867,6 +5865,10 @@ h2 {
 li {
   list-style: none;
   color: gray; }
+
+.ver {
+  margin-top: 40%;
+  float: right; }
 
 .ver .btn-default {
   color: #FF6A49 !important;
