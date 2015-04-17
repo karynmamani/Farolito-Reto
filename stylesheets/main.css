@@ -5695,7 +5695,7 @@ span {
 
 .container-postulantes {
   background-image: url(../img/img-02.png);
-  height: 150%; }
+  height: 227%; }
 
 .text-postula {
   text-align: center;
@@ -5713,19 +5713,174 @@ span {
   top: 0%; }
 
 .perfil {
-  border-bottom: 2px dashed white; }
+  border-bottom: 1px dashed white; }
+
+.perfil-2 {
+  border-bottom: 1px dashed white; }
+
+.perfil-3 {
+  border-bottom: 1px dashed white; }
+
+.perfil-2 h4 {
+  font-size: 24px;
+  color: #fff;
+  padding-right: 11%; }
+
+.perfil-3 h4 {
+  font-size: 24px;
+  color: #fff;
+  padding-right: 10%; }
 
 .perfil h4 {
   font-size: 24px;
-  color: white; }
+  color: #fff; }
 
 .text-perfil-2 {
   text-align: center;
   color: #fff;
   padding: 9% 28%; }
 
+.perfiles {
+  margin-bottom: 7%; }
+
+.right-1 {
+  border: 1px dashed white;
+  width: 8%;
+  -webkit-transform: translateY(29px) translateX(415px) rotate(90deg); }
+
+.right-2 {
+  border: 1px dashed white;
+  width: 19%;
+  -webkit-transform: translateY(25px) translateX(363px) rotate(90deg); }
+
+.right-3 {
+  border: 1px dashed white;
+  width: 12%;
+  -webkit-transform: translateY(14px) translateX(400px) rotate(90deg); }
+
+.buttom-postula .btn-default {
+  color: white !important;
+  padding: 9px 15px !important;
+  background: #58C6E7;
+  border-radius: 17px;
+  border: 1px solid #fff; }
+
+.buttom-postula {
+  text-align: center; }
+
+/*empresa*/
+.container-empresas {
+  text-align: center;
+  padding-top: 4%; }
+
+h2 {
+  color: #FF6A49; }
+
+.buttom-empresa {
+  border: 1px dashed #FF6A49;
+  width: 42%;
+  margin: 8px auto; }
+
+.logo-empresa img {
+  border-radius: 60%; }
+
+.text-empre {
+  padding: 0% 6%; }
+
+/*.container-empresas p {
+  padding: 1% 29% 2%;
+}*/
+.buttom-empresa2 .btn-default {
+  color: white !important;
+  padding: 4px 29px !important;
+  background: #FF6A49;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  margin-bottom: 7%; }
+
+/*educativo*/
+.educativos {
+  background-color: #77d248;
+  height: 120%;
+  text-align: center; }
+
+.texto-educativos {
+  margin-top: 6%;
+  text-align: center; }
+
+.texto-educativos h2 {
+  color: #fff;
+  font-size: 25px; }
+
+.texto-educativos h4 {
+  color: #fcf07e; }
+
+.texto-educativos p {
+  padding: 1% 25%;
+  color: white; }
+
+.buttom-educativo {
+  border: 1px dashed #fff;
+  width: 48%;
+  margin: 8px auto; }
+
+.text-educa {
+  color: #fff; }
+
+.buttom-educa .btn-default {
+  color: white !important;
+  padding: 6px 50px !important;
+  background: #77d248;
+  border-radius: 17px;
+  border: 3px solid #fff;
+  margin: 6% auto; }
+
+/*oportunidades*/
+.oportunidades {
+  background-image: url(../img/img-03.png);
+  height: 180%;
+  width: 100%;
+  background-size: cover; }
+
+.text-1 {
+  padding-top: 4%; }
+
+.text-1 h2 {
+  color: gray;
+  text-align: center;
+  padding: 4% 5% 3% 8%; }
+
+.lista {
+  border-bottom: 1px dashed rgba(128, 128, 128, 0.21);
+  width: 57%;
+  margin: 0 auto;
+  padding: 3% 0%; }
+
+.servicio {
+  padding-bottom: 3%; }
+
+.servicio li {
+  text-decoration: underline;
+  color: #58C6E7;
+  list-style: none; }
+
+li {
+  list-style: none;
+  color: gray; }
+
+.ver .btn-default {
+  color: #FF6A49 !important;
+  padding: 2px 12px !important;
+  background: white;
+  border-radius: 17px;
+  border: 1px solid;
+  border: 1px solid #FF6A49; }
+
 @media screen and (max-width: 480px) {
   .navbar-toggle {
-    float: left; } }
+    float: left; }
+
+  .navbar {
+    background-color: gray; } }
 
 /*# sourceMappingURL=main.css.map */
