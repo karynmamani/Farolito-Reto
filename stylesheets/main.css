@@ -5631,7 +5631,7 @@ span {
   bottom: 125px;
   left: -15px; }
 
-.container .circulo-externo .circulo-interno {
+.circulo-externo .circulo-interno {
   /*background-color: #ff6a49;
    border: 2px dashed white;
    height: 96%;*/
@@ -5851,7 +5851,7 @@ h2 {
 
 .lista {
   border-bottom: 1px dashed rgba(128, 128, 128, 0.21);
-  margin: 0 24%;
+  margin: 0 23%;
   padding: 3% 0%; }
 
 .servicio {
@@ -5870,6 +5870,10 @@ li {
   margin-top: 40%;
   float: right; }
 
+.buttom-ver {
+  text-align: center;
+  padding: 2% 0% 9% 0%; }
+
 .ver .btn-default {
   color: #FF6A49 !important;
   padding: 2px 12px !important;
@@ -5878,11 +5882,55 @@ li {
   border: 1px solid;
   border: 1px solid #FF6A49; }
 
+/*blog*/
+.logo-blog {
+  text-align: center;
+  position: relative;
+  top: 39px; }
+
+.logo-blog img {
+  border-radius: 50%; }
+
+.text-blog {
+  text-align: center;
+  padding: 6%; }
+
+.text-blog h2 {
+  color: gray; }
+
+.content-blog {
+  background-color: rgba(128, 128, 128, 0.16);
+  height: 35%;
+  width: 92%;
+  color: black; }
+
+.content-blog:hover {
+  background-color: red;
+  height: 35%;
+  width: 92%;
+  color: white; }
+
+.content-blog p {
+  text-align: center;
+  padding: 17%; }
+
+.blog-farolito {
+  margin: 0 10%; }
+
 @media screen and (max-width: 480px) {
   .navbar-toggle {
     float: left; }
 
   .navbar {
-    background-color: gray; } }
+    background-color: gray; }
+
+  .line2 {
+    width: 151px;
+    height: 47px;
+    position: absolute;
+    border-bottom: 2px dashed #FF6A49;
+    -webkit-transform: translateY(56px) translateX(155px) rotate(1deg);
+    bottom: 125px;
+    left: -15px; } }
 
 /*# sourceMappingURL=main.css.map */
