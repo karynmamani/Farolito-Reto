@@ -5534,6 +5534,10 @@ button.close {
 .navbar-default {
   margin-bottom: 0; }
 
+.navbar-default .navbar-toggle {
+  border-color: #ddd;
+  margin: 5px; }
+
 .row {
   margin-right: 0px; }
 
@@ -5541,7 +5545,8 @@ button.close {
   background-image: url(../img/img-home.png);
   height: 100%;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  padding: 0px; }
 
 .text-center {
   text-align: center;
@@ -5893,7 +5898,7 @@ li {
 
 .text-blog {
   text-align: center;
-  padding: 6%; }
+  padding: 5% 0% 0%; }
 
 .text-blog h2 {
   color: gray; }
@@ -5917,6 +5922,60 @@ li {
 .blog-farolito {
   margin: 0 10%; }
 
+.buttom-blog {
+  padding: 6%;
+  text-align: center; }
+
+.buttom-blog .btn-default {
+  color: white !important;
+  padding: 7px 42px !important;
+  background: #58C6E7;
+  border-radius: 17px;
+  border: 1px solid #fff; }
+
+.flecha-blog {
+  position: relative;
+  z-index: 100;
+  bottom: -35px;
+  text-align: center; }
+
+/*contactanos*/
+.contactanos {
+  background-color: #eeeeee;
+  height: 100%; }
+
+h2.contacto {
+  color: #9E9D9D;
+  text-align: center;
+  padding: 5% 0% 0%; }
+
+.formulario {
+  padding: 4% 28% 6% 35%; }
+
+button {
+  margin-left: 44%; }
+
+.btn {
+  padding: 3px 27px;
+  border-radius: 11%; }
+
+.btn-primary {
+  background: #9e9d9d;
+  color: white;
+  padding: 2px 25px;
+  border-radius: 14px;
+  border-color: gray; }
+
+h5.llamanos span {
+  color: gray;
+  color: gray;
+  padding-left: 36%; }
+
+.footer {
+  color: #777777;
+  background-color: #989898;
+  height: 49px !important; }
+
 @media screen and (max-width: 480px) {
   .navbar-toggle {
     float: left; }
@@ -5931,6 +5990,22 @@ li {
     border-bottom: 2px dashed #FF6A49;
     -webkit-transform: translateY(56px) translateX(155px) rotate(1deg);
     bottom: 125px;
-    left: -15px; } }
+    left: -15px; }
+
+  .buttom {
+    position: absolute;
+    float: right;
+    bottom: 103%;
+    left: 26%; } }
+.landing {
+  background-image: url(../img/img_nosotros-02.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover; }
+
+.container {
+  width: 100%;
+  padding: 0px; }
 
 /*# sourceMappingURL=main.css.map */
