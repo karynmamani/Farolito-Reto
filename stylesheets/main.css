@@ -5554,6 +5554,22 @@ body {
 .row {
   margin-right: 0px; }
 
+.active a {
+  background-color: #989898; }
+
+.btn-default {
+  color: #fff;
+  background-color: #989898;
+  border-color: #ccc;
+  border-radius: 50%; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #989898; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #989898;
+  background-color: transparent; }
+
 .intro.container-fluid {
   background-image: url(../img/img-home.png);
   height: 100%;
@@ -5563,7 +5579,7 @@ body {
 
 .text-center {
   text-align: center;
-  padding: 6% 4% 0% 13%; }
+  padding: 1% 9% 0% 9%; }
 
 .text-primary {
   color: #58C6E7; }
@@ -5575,36 +5591,42 @@ h3, h4 {
   margin-bottom: 10.5px; }
 
 .text-gray {
-  color: #9E9D9D; }
+  color: #989898;
+  font-size: 15px; }
 
 .btn {
   padding: 11px 28px; }
 
-.btn-default {
-  color: white !important;
-  padding: 2px 12px !important;
-  background: #aaa;
-  border-radius: 17px;
-  border: 1px solid #9f9f9f; }
+.buttom-home {
+  margin: 9% 0%; }
 
-.btn-danger {
+.buttom-home .btn-default {
+  color: white !important;
+  padding: 6px 27px !important;
+  background: #ff6a49;
+  border-radius: 12px;
+  border: 1px solid #ff6a49; }
+
+  /*.buttom-home .btn-danger {
   color: #fff;
   background-color: #FF6A49;
-  border-color: #ff5530; }
-
+  border-color: #ff5530;
+}*/
 .flecha {
   position: relative;
   z-index: 100;
-  bottom: 23px;
+  bottom: -44px;
   text-align: center; }
 
-.flecha-home img {
-  position: absolute; }
-
-h1 {
+h1.metodologia {
+  padding: 4% 0%;
   color: #58C6E7;
   text-align: center; }
 
+/*h1{
+	color:#58C6E7;
+	text-align:center;
+}*/
 span {
   color: #FF6A49; }
 
@@ -5640,6 +5662,10 @@ span {
   padding: 0.5rem;
   width: 92%; }
 
+/*hover*/
+.circulo-externo:hover {
+  background-color: white; }
+
 .line2 {
   width: 151px;
   height: 47px;
@@ -5649,16 +5675,17 @@ span {
   bottom: 125px;
   left: -15px; }
 
-.circulo-externo .circulo-interno {
-  /*background-color: #ff6a49;
-   border: 2px dashed white;
-   height: 96%;*/
-  /*border-radius: 50%;*/
+/*hover*/
+.circulo-interno {
   border: 2px dashed white;
   border-radius: 50%;
   height: 100%;
   width: 100%;
   padding: 13% 17% 0%; }
+
+/*hover*/
+.circulo-interno:hover {
+  border: 2px dashed #FF6A49; }
 
 .circle-text h4 {
   color: white;
@@ -5671,49 +5698,62 @@ span {
   height: 90px;
   width: 150px;
   position: absolute;
-  left: 43%; }
+  left: 45%; }
+
+.text-left p {
+  text-align: center;
+  padding: 0% 16% 2% 0%;
+  color: #989898; }
 
 .text-mean {
   color: #FF6A49;
-  letter-spacing: -1px;
-  margin: 0px; }
+  letter-spacing: -1px; }
 
 .text-medio {
-  position: relative; }
+  position: relative;
+  padding: 0% 7% 5% 0%;
+  color: #989898; }
+
+.text-right p {
+  color: #989898; }
 
 .buttom-center {
   text-align: center;
-  padding-left: 4%;
-  padding-top: 8%; }
+  margin-top: 3%; }
 
 .buttom-center .btn-default {
-  padding: 7px 40px !important;
+  padding: 12px 74px !important;
   background: #58C6E7;
   border-radius: 17px;
-  border: 1px solid #9f9f9f;
-  margin-bottom: 10%; }
+  /* border: 1px solid #9f9f9f; */
+  margin-bottom: 8%;
+  color: #fff; }
 
-/*.text-metodologia {
-  display: block;
-  position: relative;
+/*.btn {
+  padding: 3px 27px;
+  border-radius: 11%;
 }
-.text-medio {
-  display: block;
-  position: relative;
+.btn {
+  padding: 11px 28px;
 }*/
 .flecha-2 {
   position: relative;
   z-index: 100;
-  bottom: 23px;
+  bottom: -35px;
   text-align: center; }
 
-.flecha-center img {
+/*.flecha-center img {
   position: absolute;
-  left: 46%; }
-
+  left: 46%
+}*/
 .container-postulantes {
-  background-image: url(../img/img-02.png);
-  height: 227%; }
+  background-image: url(../img/img-02.png); }
+
+.flecha-em {
+  position: relative;
+  z-index: 100;
+  bottom: 25px;
+  text-align: center; }
 
 .text-postula {
   text-align: center;
@@ -5778,13 +5818,14 @@ span {
 
 .buttom-postula .btn-default {
   color: white !important;
-  padding: 9px 15px !important;
+  padding: 10px 18px !important;
   background: #58C6E7;
   border-radius: 17px;
   border: 1px solid #fff; }
 
 .buttom-postula {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 8%; }
 
 /*empresa*/
 .container-empresas {
@@ -5799,27 +5840,39 @@ h2 {
   width: 42%;
   margin: 8px auto; }
 
+.empresa-sm {
+  padding: 1% 31%;
+  color: #989898; }
+
 .logo-empresa img {
   border-radius: 60%; }
 
 .text-empre {
-  padding: 0% 6%; }
+  padding: 0% 6%;
+  color: #989898; }
 
-/*.container-empresas p {
-  padding: 1% 29% 2%;
-}*/
+.text-empre h3 {
+  margin: 10% -17% 5% -17%;
+  font-size: 20px; }
+
+.text-empre h4 {
+  color: #28c5e6; }
+
+.texto-empresa h4 {
+  color: #989898;
+  font-size: 20px; }
+
 .buttom-empresa2 .btn-default {
   color: white !important;
-  padding: 4px 29px !important;
+  padding: 10px 50px !important;
   background: #FF6A49;
-  border-radius: 8px;
+  border-radius: 18px;
   border: 1px solid #fff;
-  margin-bottom: 7%; }
+  margin: 2% 0% 7% 0%; }
 
 /*educativo*/
 .educativos {
   background-color: #77d248;
-  height: 120%;
   text-align: center; }
 
 .texto-educativos {
@@ -5837,6 +5890,12 @@ h2 {
   padding: 1% 25%;
   color: white; }
 
+.flecha-educa {
+  position: relative;
+  z-index: 100;
+  bottom: 35px;
+  text-align: center; }
+
 .buttom-educativo {
   border: 1px dashed #fff;
   width: 48%;
@@ -5851,7 +5910,7 @@ h2 {
   background: #77d248;
   border-radius: 17px;
   border: 3px solid #fff;
-  margin: 6% auto; }
+  margin: 5% 0% 8% 0%; }
 
 /*oportunidades*/
 .oportunidades {
@@ -5920,7 +5979,7 @@ li {
   background-color: rgba(128, 128, 128, 0.16);
   height: 35%;
   width: 92%;
-  color: black; }
+  color: #989898; }
 
 .content-blog:hover {
   background-color: #ffc200;
@@ -5989,6 +6048,11 @@ h5.llamanos span {
   background-color: #989898;
   height: 49px !important; }
 
+.footer-1 {
+  color: #777777;
+  background-color: #989898;
+  height: 58px !important; }
+
 @media screen and (max-width: 480px) {
   .navbar-toggle {
     float: left; }
@@ -6005,11 +6069,11 @@ h5.llamanos span {
     bottom: 125px;
     left: -15px; }
 
-  .buttom {
+  .buttom-home {
     position: absolute;
     float: right;
-    bottom: 103%;
-    left: 26%; } }
+    bottom: 91%;
+    left: 59%; } }
 .landing {
   background-image: url(../img/img_nosotros-02.png);
   height: 75%;
@@ -6030,11 +6094,11 @@ h5.llamanos span {
   color: white;
   text-align: center; }
 
-.flecha-somos {
+.flecha-red {
   position: relative;
   z-index: 100;
-  bottom: -125px;
-  text-align: center; }
+  text-align: center;
+  bottom: 30px; }
 
 .fundadores h2 {
   text-align: center;
@@ -6042,7 +6106,7 @@ h5.llamanos span {
   color: gray; }
 
 .text-center {
-  padding: 1% 4% 0% 13%; }
+  padding: 1% 9% 0% 9%; }
 
 .fundadoras img {
   border-radius: 50%;
@@ -6064,17 +6128,18 @@ h5.llamanos span {
 
 .fondo-red {
   background-color: #FF6A49;
-  height: 100%; }
+  height: 100%;
+  margin-top: 6%; }
 
 .flecha-somos {
   position: relative;
   z-index: 100;
   text-align: center;
-  bottom: -40px; }
+  bottom: -125px; }
 
 .foco {
   text-align: center;
-  margin: 4%; }
+  margin: 2%; }
 
 .foco img {
   width: 10%;
@@ -6159,10 +6224,10 @@ h5.llamanos span {
   color: #989898; }
 
 .image-blog {
-  background-color: gray;
-  height: 36%;
-  width: 91%;
   margin: 6% 0%; }
+
+.image-blog img {
+  width: 91%; }
 
 .caja span {
   color: #989898; }
@@ -6170,9 +6235,20 @@ h5.llamanos span {
 .redes li {
   float: left;
   top: 10%;
-  border-radius: 50%; }
+  border-radius: 50%;
+  padding-right: 1%; }
 
 li img {
   border-radius: 50%; }
+
+.footer-2 {
+  color: #777777;
+  background-color: #989898;
+  height: 57px !important;
+  margin-top: 4%; }
+
+.redes-right {
+  text-align: right;
+  padding: 1%; }
 
 /*# sourceMappingURL=main.css.map */

@@ -20,19 +20,21 @@
   color: white;
   text-align: center;
 }
-.flecha-somos{
- position: relative;
+.flecha-red{
+   position: relative;
   z-index: 100;
-  bottom: -125px;
   text-align: center;
+  bottom: 30px;
+
 }
+
 .fundadores h2{
 	text-align: center;
   padding: 4%;
   color: gray;
 }
 .text-center{
-	padding: 1% 4% 0% 13%;
+	padding: 1% 9% 0% 9%;
 
 }
 .fundadoras img {
@@ -56,16 +58,17 @@ color: #28c5e6;
 .fondo-red{
   background-color: #FF6A49;
   height: 100%;
+  margin-top: 6%;
 }
 .flecha-somos {
   position: relative;
   z-index: 100;
   text-align: center;
-  bottom: -40px;
+  bottom: -125px;
 }
 .foco{
   text-align: center;
-  margin: 4%;  
+  margin: 2%;  
 }
 .foco img{
   width: 10%;

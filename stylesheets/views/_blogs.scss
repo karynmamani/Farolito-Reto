@@ -63,19 +63,30 @@
   color: #989898;
   }
   .image-blog{
-    background-color: gray;
-  height: 36%;
-  width: 91%;
   margin: 6% 0%;
+  }
+  .image-blog img {
+    width: 91%;
   }
   .caja span{
     color: #989898;
   }
   .redes li {
-    float: left;
-    top: 10%;
-    border-radius: 50%;
-  }
+  float: left;
+  top: 10%;
+  border-radius: 50%;
+  padding-right: 1%;
+}
    li img {
     border-radius: 50%;
   }
+  .footer-2 {
+  color: #777777;
+  background-color: #989898;
+  height: 57px !important;
+  margin-top: 4%;
+}
+.redes-right{
+  text-align: right;
+  padding: 1%;
+}
