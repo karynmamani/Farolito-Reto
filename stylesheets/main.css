@@ -6098,19 +6098,16 @@ h5.llamanos span {
   margin: 0 auto; }
 
 .publica p {
-  margin: 2% 0% 0% 10%; }
+  margin: 2% 0% 0% 17%; }
 
 .text-primero {
   color: #28c5e6;
-  padding: 0% 2%; }
+  /* padding: 0% 2%;*/ }
 
 .icon {
-  padding-left: 2%;
+  /*padding-left: 2%;*/
   float: left; }
 
-/*.icon img {
-	width: 10%;
-}*/
 .text-lorem {
   margin: 5% 0 -5% 21%; }
 
@@ -6118,7 +6115,64 @@ h5.llamanos span {
   margin: 5% 0 9% 21%; }
 
 .caja {
-  padding-right: 23%;
-  margin-bottom: 3%; }
+  padding-right: 9%;
+  margin-bottom: 3%;
+  text-align: justify; }
+
+.caja p {
+  color: #989898; }
+
+.blog-sm {
+  background-color: rgba(152, 152, 152, 0.2);
+  padding: 7% 0% 7% 2%;
+  width: 120%;
+  margin-bottom: 34%; }
+
+.blog-sm ul {
+  padding-left: 9px; }
+
+.blog-sm ul li {
+  line-height: 20px;
+  color: #989898;
+  border-bottom: 1px solid rgba(152, 152, 152, 0.35);
+  width: 100px; }
+
+.articulo {
+  color: #ffc200; }
+
+.log-blog {
+  text-align: center;
+  position: relative;
+  top: 13px; }
+
+.log-blog img {
+  border-radius: 50%;
+  width: 25%; }
+
+.sm-blog {
+  background-color: rgba(128, 128, 128, 0.16);
+  width: 120%; }
+
+.sm-blog p {
+  text-align: justify;
+  padding: 13% 10% 13% 10%;
+  color: #989898; }
+
+.image-blog {
+  background-color: gray;
+  height: 36%;
+  width: 91%;
+  margin: 6% 0%; }
+
+.caja span {
+  color: #989898; }
+
+.redes li {
+  float: left;
+  top: 10%;
+  border-radius: 50%; }
+
+li img {
+  border-radius: 50%; }
 
 /*# sourceMappingURL=main.css.map */
