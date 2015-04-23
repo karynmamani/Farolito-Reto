@@ -1,12 +1,91 @@
+
+
 .landing {
   background-image: url(../img/img_nosotros-02.png);
-  height: 100%;
+  height: 75%;
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
  }
-.container {
+.container-fluid {
 	width: 100%;
-  padding: 0px;
+}
+.nosotros h1{
+	text-align: center;
+  color: white;
+  padding: 3% 27% 0% 26%;
+}
+.nosotros p{
+	padding: 3% 37% 0% 37%;
+  color: white;
+  text-align: center;
+}
+.flecha-somos{
+ position: relative;
+  z-index: 100;
+  bottom: -125px;
+  text-align: center;
+}
+.fundadores h2{
+	text-align: center;
+  padding: 4%;
+  color: gray;
+}
+.text-center{
+	padding: 1% 4% 0% 13%;
 
+}
+.fundadoras img {
+	border-radius: 50%;
+  width: 48%;
+}
+.fundadoras-m  h3 {
+color: #28c5e6;
+}
+.border{
+	border: 1px dashed gray;
+  width: 76%;
+  /* text-align: center; */
+  margin: 22px auto;
+}
+.test h2{
+  text-align: center;
+  padding: 4%;
+  color: gray;
+}
+.fondo-red{
+  background-color: #FF6A49;
+  height: 100%;
+}
+.flecha-somos {
+  position: relative;
+  z-index: 100;
+  text-align: center;
+  bottom: -40px;
+}
+.foco{
+  text-align: center;
+  margin: 4%;  
+}
+.foco img{
+  width: 10%;
+  margin-top: 3%;
+}
+.text-somos {
+  color: white;
+  text-align: center;
+
+}
+.text-somos h5{
+  font-size: 24px;
+  padding: 1% 31%;
+}
+.text-somos p{
+  text-align: center;
+  padding: 3% 21% 0% 21%;
+}
+.border-somos{
+  border: 1px dashed white;
+  width: 50%;
+  margin: 0 auto;
 }
