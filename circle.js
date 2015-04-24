@@ -11,8 +11,12 @@ $(window).scroll(function(){
 	var prueba = $(this).scrollTop();
 	if (prueba > 499) {
 		$(".navbar").addClass("scroll");
+		$(".navbar-brand").removeClass("hidden");
+
 	}
 		else if (prueba < 499) {
 		$(".navbar").removeClass("scroll");
+		$(".navbar-brand").addClass("hidden");
+
 	}
 });

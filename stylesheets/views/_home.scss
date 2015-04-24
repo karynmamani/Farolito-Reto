@@ -14,13 +14,14 @@ body {
 .navbar {
   background: transparent;
   border-color: transparent;
+  transition:0.5s ease-in-out;
 
 }
-.navbar .scroll{
+.navbar.scroll{
   background-color: #F0FBFD;
   position: fixed;
   width: 100%;
-  z-index: 15px;
+  z-index: 10;
 }
 .navbar-default {
 	margin-bottom: 0;
@@ -109,7 +110,6 @@ font-weight: 500;
 }*/
 .flecha {
   position: relative;
-  z-index: 100;
   bottom: -118px;
   text-align: center;
 }
@@ -242,20 +242,15 @@ color: #989898;
 }*/
 .flecha-2{
   position: relative;
-  z-index: 100;
   bottom: -35px;
   text-align: center;
 }
-/*.flecha-center img {
-  position: absolute;
-  left: 46%
-}*/
+
 .container-postulantes {
   background-image: url(../img/img-02.png);
 }
 .flecha-em{
     position: relative;
-  z-index: 100;
   bottom: 25px;
   text-align: center;
 
@@ -416,7 +411,6 @@ color: #989898;
 }
 .flecha-educa{
       position: relative;
-  z-index: 100;
   bottom: 35px;
   text-align: center;
 
@@ -534,7 +528,6 @@ li{
 }
 .flecha-blog {
   position: relative;
-  z-index: 100;
   bottom: -35px;
   text-align: center;
 }
