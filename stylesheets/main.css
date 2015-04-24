@@ -5544,6 +5544,12 @@ body {
   background: transparent;
   border-color: transparent; }
 
+.navbar .scroll {
+  background-color: #F0FBFD;
+  position: fixed;
+  width: 100%;
+  z-index: 15px; }
+
 .navbar-default {
   margin-bottom: 0; }
 
@@ -5569,6 +5575,12 @@ body {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #989898;
   background-color: transparent; }
+
+li .dropdown {
+  border: 1px solid gray;
+  width: 13%;
+  height: 7%;
+  border-radius: 13%; }
 
 .intro.container-fluid {
   background-image: url(../img/img-home.png);
@@ -5597,8 +5609,13 @@ h3, h4 {
 .btn {
   padding: 11px 28px; }
 
+/*.buttom-home{
+ margin: 9% 0%;*/
 .buttom-home {
-  margin: 9% 0%; }
+  position: absolute;
+  float: right;
+  bottom: 16%;
+  left: 66%; }
 
 .buttom-home .btn-default {
   color: white !important;
@@ -5615,7 +5632,7 @@ h3, h4 {
 .flecha {
   position: relative;
   z-index: 100;
-  bottom: -44px;
+  bottom: -118px;
   text-align: center; }
 
 h1.metodologia {
@@ -6053,6 +6070,11 @@ h5.llamanos span {
   background-color: #989898;
   height: 58px !important; }
 
+ul.redes {
+  position: relative;
+  bottom: 23px;
+  left: -2%; }
+
 @media screen and (max-width: 480px) {
   .navbar-toggle {
     float: left; }
@@ -6065,15 +6087,39 @@ h5.llamanos span {
     height: 47px;
     position: absolute;
     border-bottom: 2px dashed #FF6A49;
-    -webkit-transform: translateY(56px) translateX(155px) rotate(1deg);
+    -webkit-transform: translateY(99px) translateX(89px) rotate(0deg);
     bottom: 125px;
-    left: -15px; }
+    left: -22px; }
+
+  .line-container.sm {
+    height: 1px; }
+
+  .linea3 {
+    border-bottom: 2px dashed #FF6A49;
+    height: 2px;
+    width: 151px;
+    position: absolute;
+    left: 20%; }
+
+  .line-container {
+    height: 0; }
+
+  .text-left {
+    text-align: center; }
+
+  .text-right {
+    text-align: center; }
+
+  .text-left p {
+    text-align: center;
+    padding: 0% 15 2% 5%;
+    color: #989898; }
 
   .buttom-home {
     position: absolute;
     float: right;
-    bottom: 91%;
-    left: 59%; } }
+    bottom: 88%;
+    left: 46%; } }
 .landing {
   background-image: url(../img/img_nosotros-02.png);
   height: 75%;
@@ -6114,6 +6160,12 @@ h5.llamanos span {
 
 .fundadoras-m h3 {
   color: #28c5e6; }
+
+.fundadoras-m h4 {
+  color: #989898; }
+
+.fundadoras-m p {
+  color: #989898; }
 
 .border {
   border: 1px dashed gray;

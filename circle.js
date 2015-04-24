@@ -9,10 +9,10 @@ $(document).ready(function(){
 
 $(window).scroll(function(){
 	var prueba = $(this).scrollTop();
-	if (prueba > 600) {
-		$(".icono-social").addClass("scroll");
+	if (prueba > 499) {
+		$(".navbar").addClass("scroll");
 	}
-		else if (prueba < 600) {
-		$(".icono-social").removeClass("scroll");
+		else if (prueba < 499) {
+		$(".navbar").removeClass("scroll");
 	}
 });
