@@ -5591,8 +5591,10 @@ li .dropdown {
   padding: 0px; }
 
 .text-center {
-  text-align: center;
-  padding: 1% 9% 0% 9%; }
+  text-align: center; }
+
+.log {
+  padding: 12% 12% 0; }
 
 .text-primary {
   color: #58C6E7; }
@@ -5607,16 +5609,14 @@ h3, h4 {
   color: #989898;
   font-size: 15px; }
 
-.btn {
-  padding: 11px 28px; }
+button {
+  padding: 2.5% 9%;
+  margin: 4% 0;
+  border-radius: 10px; }
 
-/*.buttom-home{
- margin: 9% 0%;*/
-.buttom-home {
-  position: absolute;
-  float: right;
-  bottom: 16%;
-  left: 66%; }
+.button-red {
+  background-color: #FF6A49;
+  color: #fff; }
 
 .buttom-home .btn-default {
   color: white !important;
@@ -5625,25 +5625,16 @@ h3, h4 {
   border-radius: 12px;
   border: 1px solid #ff6a49; }
 
-  /*.buttom-home .btn-danger {
-  color: #fff;
-  background-color: #FF6A49;
-  border-color: #ff5530;
-}*/
 .flecha {
   position: relative;
-  bottom: -118px;
-  text-align: center; }
+  text-align: center;
+  top: 20%; }
 
 h1.metodologia {
   padding: 4% 0%;
   color: #58C6E7;
   text-align: center; }
 
-/*h1{
-	color:#58C6E7;
-	text-align:center;
-}*/
 span {
   color: #FF6A49; }
 
@@ -6144,7 +6135,7 @@ ul.redes {
   color: gray; }
 
 .text-center {
-  padding: 1% 9% 0% 9%; }
+  text-align: center; }
 
 .fundadoras img {
   border-radius: 50%;
