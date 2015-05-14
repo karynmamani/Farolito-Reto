@@ -5545,6 +5545,17 @@ body {
   border-color: transparent;
   transition: 0.5s ease-in-out; }
 
+.nav li a {
+  text-decoration: none;
+  font-size: 18px; }
+
+button.btn {
+  padding: 6px 14px;
+  border-radius: 11%; }
+
+.navbar-right {
+  padding: 2% 2% 0% 2%; }
+
 .navbar.scroll {
   background-color: #F0FBFD;
   position: fixed;
@@ -5564,9 +5575,17 @@ body {
 .active a {
   background-color: #989898; }
 
+li button {
+  background-color: #aaa;
+  color: white;
+  border-radius: 10px;
+  padding: 5% 15%;
+  font-size: 13px;
+  border: transparent;
+  font-weight: bold; }
+
 .btn-default {
-  color: #fff;
-  background-color: #989898;
+  color: #989898;
   border-color: #ccc;
   border-radius: 50%; }
 
@@ -5610,7 +5629,7 @@ h3, h4 {
   font-size: 15px; }
 
 button {
-  padding: 2.5% 9%;
+  padding: 2.7% 9%;
   margin: 4% 0;
   border-radius: 10px; }
 
@@ -5623,12 +5642,14 @@ button {
   padding: 6px 27px !important;
   background: #ff6a49;
   border-radius: 12px;
-  border: 1px solid #ff6a49; }
+  border: 1px solid #ff6a49;
+  position: relative;
+  text-align: center; }
 
 .flecha {
   position: relative;
   text-align: center;
-  top: 20%; }
+  top: 129px; }
 
 h1.metodologia {
   padding: 4% 0%;
@@ -5661,14 +5682,15 @@ span {
   /* -webkit-transform: translateY(10px) translateX(2px) rotate(-18deg);*/
   top: -21px;
   left: 0px;
-  -webkit-transform: translateY(115px) translateX(56px) rotate(-18deg); }
+  -webkit-transform: translateY(115px) translateX(156px) rotate(-18deg); }
 
 .circulo-externo {
   background-color: #ff6a49;
-  height: 70%;
-  border-radius: 50%;
-  padding: 0.5rem;
-  width: 92%; }
+  height: 480px;
+  border-radius: 100%;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2%; }
 
 /*hover*/
 .circulo-externo:hover {
@@ -5685,11 +5707,11 @@ span {
 
 /*hover*/
 .circulo-interno {
+  border-radius: 100%;
   border: 2px dashed white;
-  border-radius: 50%;
+  padding: 30% 11%;
   height: 100%;
-  width: 100%;
-  padding: 13% 17% 0%; }
+  width: 100%; }
 
 /*hover*/
 .circulo-interno:hover {
@@ -5703,10 +5725,10 @@ span {
 
 .linea3 {
   border-left: 2px dashed #FF6A49;
-  height: 90px;
+  height: 110px;
   width: 150px;
   position: absolute;
-  left: 45%; }
+  left: 50%; }
 
 .text-left p {
   text-align: center;
@@ -5715,12 +5737,22 @@ span {
 
 .text-mean {
   color: #FF6A49;
-  letter-spacing: -1px; }
+  letter-spacing: -1px;
+  padding-left: 21%; }
+
+.text-main {
+  color: #FF6A49;
+  letter-spacing: -1px;
+  padding-right: 31%; }
 
 .text-medio {
-  position: relative;
-  padding: 0% 7% 5% 0%;
-  color: #989898; }
+  color: #FF6A49;
+  text-align: center;
+  padding-left: 4%; }
+
+.text-medio p {
+  color: #989898;
+  text-align: center; }
 
 .text-right p {
   color: #989898; }
@@ -5805,18 +5837,18 @@ span {
 
 .right-1 {
   border: 1px dashed white;
-  width: 8%;
-  -webkit-transform: translateY(29px) translateX(415px) rotate(90deg); }
+  width: 10%;
+  -webkit-transform: translateY(50px) translateX(484px) rotate(90deg); }
 
 .right-2 {
   border: 1px dashed white;
-  width: 19%;
-  -webkit-transform: translateY(25px) translateX(363px) rotate(90deg); }
+  width: 13%;
+  -webkit-transform: translateY(25px) translateX(470px) rotate(90deg); }
 
 .right-3 {
   border: 1px dashed white;
-  width: 12%;
-  -webkit-transform: translateY(14px) translateX(400px) rotate(90deg); }
+  width: 13%;
+  -webkit-transform: translateY(28px) translateX(474px) rotate(90deg); }
 
 .buttom-postula .btn-default {
   color: white !important;
