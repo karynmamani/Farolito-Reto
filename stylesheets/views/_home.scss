@@ -9,124 +9,199 @@ body {
   font-family: 'Lato', sans-serif;
 }
 .container-fluid{
-  padding: 0px;
+  padding: 0
 }
-.navbar {
-  background: transparent;
+
+.landing-p{
+  background-image: url(../design/img/img-home.png);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+
+.farolito-icon{
+    width: 8%;
+    margin: 8px 40px;
+    float: left;
+    visibility: hidden;
+    transition:all 0.2s ease
+  }
+.farolito-icon.scroll{
+  visibility: visible;
+}
+
+
+.navbar{
+  padding: 5px 0;
+  border-radius: 0;
+  background-color: transparent;
   border-color: transparent;
-  transition:0.5s ease-in-out;
-}
-.nav li a{
-  text-decoration: none;
-  font-size: 18px;
-}
-button.btn {
-  padding: 6px 14px;
-  border-radius: 11%;
-}
-.navbar-right {
-  padding: 2% 2% 0% 2%;
-}
+  font-family: "MuseoSans";
+  font-weight: 600;
+  font-size: 19px;
+  color:grey;
+  margin-right: 2%;
+  margin-bottom: 0;
+  transition:all 0.2s ease;
+    .btn-principal-home-ingresar{
+      margin: 0 !important;
+    }
+    li {
+      margin: 15px 0;
+      a{
+        padding: 0 20px;
+      }
+      .linea-oportunidades{
+        border-left: 1px solid grey;
+      }
+    }
+ }
+
 .navbar.scroll{
   background-color: #F0FBFD;
   position: fixed;
   width: 100%;
-  z-index: 10;
-}
-.navbar-default {
-	margin-bottom: 0;
+  z-index: 15;
 }
 
-.navbar-default .navbar-toggle {
-  border-color: #ddd;
-  margin: 5px;
-}
-.row {
-  margin-right: 0px;
-}
-.active a {
- background-color: #989898;
-}
-li button{
-  background-color: #aaa;
+
+ .btn{
+  margin: 8px 8px;
   color: white;
-  border-radius: 10px;
-  padding: 5% 15%;
-  font-size: 13px;
-  border: transparent;
-  font-weight: bold;
-}
-.btn-default {
-  color: #989898;
-  border-color: #ccc;
-  border-radius: 50%;
-  }
-.navbar-default .navbar-nav > li > a {
-  color: #989898;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #989898;
-  background-color: transparent;
-}
-li .dropdown{
-  border: 1px solid gray;
-  width: 13%;
-  height: 7%;
-  border-radius: 13%;
-
-}
-.intro{
-	&.container-fluid{
-		background-image:url(../img/img-home.png);
-		height:100%;
-		background-repeat: no-repeat;
-		background-size:cover;
-    padding: 0px;
-	}
-}
-.text-center {
-	text-align:center;
-}
-.log{
-  padding: 12% 12% 0;
-}
-.text-primary {
-	color: #58C6E7;
- 
-}
-h3, h4 {
-font-weight: 500;
-  line-height: 1.3;
-  margin-top: 21px;
-  margin-bottom: 10.5px;
- }
- .text-gray {
- color: #989898;
-  font-size: 15px;
- }
-  button{
-  padding: 2.7% 9%;
-  margin: 4% 0;
-  border-radius: 10px;
-}
-.button-red {
-  background-color: #FF6A49;
-  color: #fff;
-}
- .buttom-home .btn-default {
-  color: white !important;
-  padding: 6px 27px !important;
-  background: #ff6a49;
+  background-color: grey;
   border-radius: 12px;
-  border: 1px solid #ff6a49;
- position: relative;
+  padding:6px 27px;
+}
+
+.bnt-dropdown{
+  border: 1px solid grey;
+  padding: 5px 13px !important;
+  border-radius: 30px;
+  margin-top: -7px;
+  font-size: 13px;
+}
+
+.row{
+  margin: 0;
+}
+
+.text-h3{
+  font-family: "NeutraText-LightAlt";
+  font-weight: 100;
+  border-bottom: 0;
+  margin: 6% 0;
+  padding: 0;
+  padding-bottom: 3%;
+  line-height: 1.5; 
+  font-size: 30px;
+}
+
+.size-p{
+  font-size: 18px;
+  font-family: "MuseoSans";
+  letter-spacing: 1px;
+}
+
+.text-center{
   text-align: center;
 }
-.flecha{
+
+.text-white{
+  color: white;
+}
+
+.text-lightblue{
+ color:#58C6E7;
+}
+
+.text-grey{
+  color: grey;
+}
+
+.text-primary{
+  font-family: "NeutraText-DemiAlt";
+  font-size: 45px;
+ }
+
+.text-principal{
+  padding: 0 8%;
+  margin-top: 7%;
+    img{
+      margin-bottom: 5%;
+    }
+    h2{
+      font-family: "MuseoSans-uno";
+    }
+    .text-gray{
+      color: grey;
+      margin-top: 7%;
+      line-height: 1.5;
+      font-weight:inherit;
+      font-family: "MuseoSans";
+      font-size: 17px;
+      letter-spacing: 1.2px;
+    }
+    .button-principal{
+      margin-top: 8%;
+      text-align: center;
+      padding-bottom: 25%;
+      a{
+        background-color: #FF6A49;
+        border-color: #ff5530;
+        font-size: 20px;
+        padding: 1.8% 6%;
+        border-radius: 15px;
+      }
+    }
+  }
+
+.metodologia {
   position: relative;
-  text-align: center;
-  top: 129px;
 }
+
+.flecha{
+ text-align: center;
+  position: relative;
+  z-index: 4;
+  bottom: 32px;
+}
+
+/*MODAL-HOME BOTON INGRESAR*/
+
+.modal-content{
+  border-radius: 40px;
+  height: auto;
+  width: 90%;
+  border: 6px solid rgb(214, 212, 212); 
+  top:100px;
+  margin:0 auto;
+  h1{
+    margin-top: 55px;
+  }
+  p{
+    padding: 1% 18% !important;
+    margin:0;
+    font-size: 15px;
+  }
+}
+
+.modal-home{
+  padding: 3% 18% 1% !important;
+  input{
+    font-size: 15px;
+  }
+}
+
+.btn-model{
+  padding:0;
+  .a-model {
+    padding: 6px !important;
+    font-size: 17px !important;
+    border-radius: 10px !important;
+  }
+}
+/*section metodologia*/
 h1.metodologia {
   padding: 4% 0%;
   color:#58C6E7;
